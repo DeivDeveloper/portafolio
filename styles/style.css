@@ -128,10 +128,14 @@ body {
   }
 
   .header__menu {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
+  }
+
+  .header__menu__link {
+    font-size: 1.3rem;
+    text-align: center;
   }
 
   .presentacion {
